@@ -1,0 +1,12 @@
+{
+  "name": "otheruse22",
+  "version": "2.0.0",
+  "description": "this is demo2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sujian", "phpdemo"],  
+  "author": "sujiantiffany",
+  "license": "ISC"
+}
