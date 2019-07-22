@@ -1,13 +1,17 @@
-mysql = {
 
-    host: "xx.xxx.xx.xxx", //这是数据库的地址
+var mysql = {
+    // host: '127.0.0.1',
+    // user: 'root',
+    // password: 'tll456456',
+    // database: 'test',
+    // port: 3306
 
-    user: "xxx", //需要用户的名字
+    host:'39.96.18.249',
+    user:'xb2',
+    password:'Sj86624932.',
+    database:'dev_xwplay',
+    port: '3306'
+};
 
-    password: "xxx", //用户密码 ，如果你没有密码，直接双引号就是
-
-    database: "xxx" //数据库名字
-
-} //好了，这样我们就能连接数据库了
-
-module.exports = mysql; //用module.exports暴露出这个接口，
+//用module.exports暴露出这个接口，
+module.exports = mysql;
